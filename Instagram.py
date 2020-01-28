@@ -42,7 +42,8 @@ def BruteForce(Email,Pass):
    if Br.geturl() != Url:
     AccessGranted(Email,Pass)
   except KeyboardInterrupt:
-   print'\n';Exit()
+   print'\n'
+Exit()
 
 def Connect(address, timeout=None, source_address=None):
   sock=socks.socksocket()
